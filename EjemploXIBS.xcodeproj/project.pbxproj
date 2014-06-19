@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72621501952388D00273154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F726214F1952388D00273154 /* main.m */; };
+		F72621531952388D00273154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72621521952388D00273154 /* AppDelegate.m */; };
+		F72621591952388E00273154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72621581952388E00273154 /* ViewController.m */; };
+		F726215C1952388E00273154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F726215A1952388E00273154 /* Main.storyboard */; };
+		F726215E1952388E00273154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F726215D1952388E00273154 /* Images.xcassets */; };
+		F726216A1952388E00273154 /* EjemploXIBSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72621691952388E00273154 /* EjemploXIBSTests.m */; };
+		F726218619523B3B00273154 /* RoundButtonFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; };
+		F726218D19523B3B00273154 /* RoundButtonFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726218C19523B3B00273154 /* RoundButtonFWTests.swift */; };
+		F726219019523B3B00273154 /* RoundButtonFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; };
+		F726219119523B3B00273154 /* RoundButtonFW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F72621AD19523EE000273154 /* XIBViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F72621AC19523EE000273154 /* XIBViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72621B319523EE000273154 /* XIBViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72621A819523EE000273154 /* XIBViews.framework */; };
+		F72621BA19523EE000273154 /* XIBViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72621B919523EE000273154 /* XIBViewsTests.swift */; };
+		F72621BD19523EE000273154 /* XIBViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72621A819523EE000273154 /* XIBViews.framework */; };
+		F72621BE19523EE000273154 /* XIBViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F72621A819523EE000273154 /* XIBViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F72621C819523EF800273154 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72621C719523EF800273154 /* SomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72621641952388E00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72621491952388D00273154;
+			remoteInfo = EjemploXIBS;
+		};
+		F726218719523B3B00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F726218E19523B3B00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F726219219523B3B00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F726219B19523B3C00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F726219D19523B3C00273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F72621A019523E6000273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F726217A19523B3B00273154;
+			remoteInfo = RoundButtonFW;
+		};
+		F72621B419523EE000273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72621A719523EE000273154;
+			remoteInfo = XIBViews;
+		};
+		F72621BB19523EE000273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72621A719523EE000273154;
+			remoteInfo = XIBViews;
+		};
+		F72621BF19523EE000273154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72621A719523EE000273154;
+			remoteInfo = XIBViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F726219719523B3B00273154 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F726219119523B3B00273154 /* RoundButtonFW.framework in Embed Frameworks */,
+				F72621BE19523EE000273154 /* XIBViews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F726214A1952388D00273154 /* EjemploXIBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploXIBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F726214E1952388D00273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F726214F1952388D00273154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F72621511952388D00273154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F72621521952388D00273154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F72621571952388E00273154 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F72621581952388E00273154 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F726215B1952388E00273154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F726215D1952388E00273154 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F72621631952388E00273154 /* EjemploXIBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploXIBSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72621681952388E00273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72621691952388E00273154 /* EjemploXIBSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploXIBSTests.m; sourceTree = "<group>"; };
+		F726217B19523B3B00273154 /* RoundButtonFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundButtonFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F726218519523B3B00273154 /* RoundButtonFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundButtonFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F726218B19523B3B00273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F726218C19523B3B00273154 /* RoundButtonFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonFWTests.swift; sourceTree = "<group>"; };
+		F72621A819523EE000273154 /* XIBViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XIBViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72621AB19523EE000273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72621AC19523EE000273154 /* XIBViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIBViews.h; sourceTree = "<group>"; };
+		F72621B219523EE000273154 /* XIBViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIBViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72621B819523EE000273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72621B919523EE000273154 /* XIBViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBViewsTests.swift; sourceTree = "<group>"; };
+		F72621C719523EF800273154 /* SomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72621471952388D00273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F726219019523B3B00273154 /* RoundButtonFW.framework in Frameworks */,
+				F72621BD19523EE000273154 /* XIBViews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621601952388E00273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726217719523B3B00273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726218219523B3B00273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F726218619523B3B00273154 /* RoundButtonFW.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621A419523EE000273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621AF19523EE000273154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72621B319523EE000273154 /* XIBViews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72621411952388D00273154 = {
+			isa = PBXGroup;
+			children = (
+				F726214C1952388D00273154 /* EjemploXIBS */,
+				F72621661952388E00273154 /* EjemploXIBSTests */,
+				F726218919523B3B00273154 /* RoundButtonFWTests */,
+				F72621A919523EE000273154 /* XIBViews */,
+				F72621B619523EE000273154 /* XIBViewsTests */,
+				F726214B1952388D00273154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F726214B1952388D00273154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F726214A1952388D00273154 /* EjemploXIBS.app */,
+				F72621631952388E00273154 /* EjemploXIBSTests.xctest */,
+				F726217B19523B3B00273154 /* RoundButtonFW.framework */,
+				F726218519523B3B00273154 /* RoundButtonFWTests.xctest */,
+				F72621A819523EE000273154 /* XIBViews.framework */,
+				F72621B219523EE000273154 /* XIBViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F726214C1952388D00273154 /* EjemploXIBS */ = {
+			isa = PBXGroup;
+			children = (
+				F72621511952388D00273154 /* AppDelegate.h */,
+				F72621521952388D00273154 /* AppDelegate.m */,
+				F72621571952388E00273154 /* ViewController.h */,
+				F72621581952388E00273154 /* ViewController.m */,
+				F726215A1952388E00273154 /* Main.storyboard */,
+				F726215D1952388E00273154 /* Images.xcassets */,
+				F726214D1952388D00273154 /* Supporting Files */,
+			);
+			path = EjemploXIBS;
+			sourceTree = "<group>";
+		};
+		F726214D1952388D00273154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F726214E1952388D00273154 /* Info.plist */,
+				F726214F1952388D00273154 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F72621661952388E00273154 /* EjemploXIBSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72621691952388E00273154 /* EjemploXIBSTests.m */,
+				F72621671952388E00273154 /* Supporting Files */,
+			);
+			path = EjemploXIBSTests;
+			sourceTree = "<group>";
+		};
+		F72621671952388E00273154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72621681952388E00273154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F726218919523B3B00273154 /* RoundButtonFWTests */ = {
+			isa = PBXGroup;
+			children = (
+				F726218C19523B3B00273154 /* RoundButtonFWTests.swift */,
+				F726218A19523B3B00273154 /* Supporting Files */,
+			);
+			path = RoundButtonFWTests;
+			sourceTree = "<group>";
+		};
+		F726218A19523B3B00273154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F726218B19523B3B00273154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F72621A919523EE000273154 /* XIBViews */ = {
+			isa = PBXGroup;
+			children = (
+				F72621AC19523EE000273154 /* XIBViews.h */,
+				F72621AA19523EE000273154 /* Supporting Files */,
+				F72621C719523EF800273154 /* SomeView.swift */,
+			);
+			path = XIBViews;
+			sourceTree = "<group>";
+		};
+		F72621AA19523EE000273154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72621AB19523EE000273154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F72621B619523EE000273154 /* XIBViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72621B919523EE000273154 /* XIBViewsTests.swift */,
+				F72621B719523EE000273154 /* Supporting Files */,
+			);
+			path = XIBViewsTests;
+			sourceTree = "<group>";
+		};
+		F72621B719523EE000273154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72621B819523EE000273154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F726217819523B3B00273154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621A519523EE000273154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72621AD19523EE000273154 /* XIBViews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F72621491952388D00273154 /* EjemploXIBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F726216D1952388E00273154 /* Build configuration list for PBXNativeTarget "EjemploXIBS" */;
+			buildPhases = (
+				F72621461952388D00273154 /* Sources */,
+				F72621471952388D00273154 /* Frameworks */,
+				F72621481952388D00273154 /* Resources */,
+				F726219719523B3B00273154 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F726218F19523B3B00273154 /* PBXTargetDependency */,
+				F726219319523B3B00273154 /* PBXTargetDependency */,
+				F72621BC19523EE000273154 /* PBXTargetDependency */,
+				F72621C019523EE000273154 /* PBXTargetDependency */,
+			);
+			name = EjemploXIBS;
+			productName = EjemploXIBS;
+			productReference = F726214A1952388D00273154 /* EjemploXIBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72621621952388E00273154 /* EjemploXIBSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72621701952388E00273154 /* Build configuration list for PBXNativeTarget "EjemploXIBSTests" */;
+			buildPhases = (
+				F726215F1952388E00273154 /* Sources */,
+				F72621601952388E00273154 /* Frameworks */,
+				F72621611952388E00273154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72621651952388E00273154 /* PBXTargetDependency */,
+			);
+			name = EjemploXIBSTests;
+			productName = EjemploXIBSTests;
+			productReference = F72621631952388E00273154 /* EjemploXIBSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F726217A19523B3B00273154 /* RoundButtonFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F726219419523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFW" */;
+			buildPhases = (
+				F726217619523B3B00273154 /* Sources */,
+				F726217719523B3B00273154 /* Frameworks */,
+				F726217819523B3B00273154 /* Headers */,
+				F726217919523B3B00273154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundButtonFW;
+			productName = RoundButtonFW;
+			productReference = F726217B19523B3B00273154 /* RoundButtonFW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F726218419523B3B00273154 /* RoundButtonFWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F726219819523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFWTests" */;
+			buildPhases = (
+				F726218119523B3B00273154 /* Sources */,
+				F726218219523B3B00273154 /* Frameworks */,
+				F726218319523B3B00273154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F726218819523B3B00273154 /* PBXTargetDependency */,
+				F726219C19523B3C00273154 /* PBXTargetDependency */,
+				F726219E19523B3C00273154 /* PBXTargetDependency */,
+				F72621A119523E6000273154 /* PBXTargetDependency */,
+			);
+			name = RoundButtonFWTests;
+			productName = RoundButtonFWTests;
+			productReference = F726218519523B3B00273154 /* RoundButtonFWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F72621A719523EE000273154 /* XIBViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72621C119523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViews" */;
+			buildPhases = (
+				F72621A319523EE000273154 /* Sources */,
+				F72621A419523EE000273154 /* Frameworks */,
+				F72621A519523EE000273154 /* Headers */,
+				F72621A619523EE000273154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XIBViews;
+			productName = XIBViews;
+			productReference = F72621A819523EE000273154 /* XIBViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F72621B119523EE000273154 /* XIBViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72621C419523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViewsTests" */;
+			buildPhases = (
+				F72621AE19523EE000273154 /* Sources */,
+				F72621AF19523EE000273154 /* Frameworks */,
+				F72621B019523EE000273154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72621B519523EE000273154 /* PBXTargetDependency */,
+			);
+			name = XIBViewsTests;
+			productName = XIBViewsTests;
+			productReference = F72621B219523EE000273154 /* XIBViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72621421952388D00273154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CloudSourceIT;
+				TargetAttributes = {
+					F72621491952388D00273154 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F72621621952388E00273154 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F72621491952388D00273154;
+					};
+					F726217A19523B3B00273154 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F726218419523B3B00273154 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F726217A19523B3B00273154;
+					};
+					F72621A719523EE000273154 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F72621B119523EE000273154 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F72621A719523EE000273154;
+					};
+				};
+			};
+			buildConfigurationList = F72621451952388D00273154 /* Build configuration list for PBXProject "EjemploXIBS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72621411952388D00273154;
+			productRefGroup = F726214B1952388D00273154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72621491952388D00273154 /* EjemploXIBS */,
+				F72621621952388E00273154 /* EjemploXIBSTests */,
+				F726217A19523B3B00273154 /* RoundButtonFW */,
+				F726218419523B3B00273154 /* RoundButtonFWTests */,
+				F72621A719523EE000273154 /* XIBViews */,
+				F72621B119523EE000273154 /* XIBViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72621481952388D00273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F726215C1952388E00273154 /* Main.storyboard in Resources */,
+				F726215E1952388E00273154 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621611952388E00273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726217919523B3B00273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726218319523B3B00273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621A619523EE000273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621B019523EE000273154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72621461952388D00273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72621531952388D00273154 /* AppDelegate.m in Sources */,
+				F72621501952388D00273154 /* main.m in Sources */,
+				F72621591952388E00273154 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726215F1952388E00273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F726216A1952388E00273154 /* EjemploXIBSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726217619523B3B00273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F726218119523B3B00273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F726218D19523B3B00273154 /* RoundButtonFWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621A319523EE000273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72621C819523EF800273154 /* SomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72621AE19523EE000273154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72621BA19523EE000273154 /* XIBViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72621651952388E00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72621491952388D00273154 /* EjemploXIBS */;
+			targetProxy = F72621641952388E00273154 /* PBXContainerItemProxy */;
+		};
+		F726218819523B3B00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F726218719523B3B00273154 /* PBXContainerItemProxy */;
+		};
+		F726218F19523B3B00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F726218E19523B3B00273154 /* PBXContainerItemProxy */;
+		};
+		F726219319523B3B00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F726219219523B3B00273154 /* PBXContainerItemProxy */;
+		};
+		F726219C19523B3C00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F726219B19523B3C00273154 /* PBXContainerItemProxy */;
+		};
+		F726219E19523B3C00273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F726219D19523B3C00273154 /* PBXContainerItemProxy */;
+		};
+		F72621A119523E6000273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F726217A19523B3B00273154 /* RoundButtonFW */;
+			targetProxy = F72621A019523E6000273154 /* PBXContainerItemProxy */;
+		};
+		F72621B519523EE000273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72621A719523EE000273154 /* XIBViews */;
+			targetProxy = F72621B419523EE000273154 /* PBXContainerItemProxy */;
+		};
+		F72621BC19523EE000273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72621A719523EE000273154 /* XIBViews */;
+			targetProxy = F72621BB19523EE000273154 /* PBXContainerItemProxy */;
+		};
+		F72621C019523EE000273154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72621A719523EE000273154 /* XIBViews */;
+			targetProxy = F72621BF19523EE000273154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F726215A1952388E00273154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F726215B1952388E00273154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F726216B1952388E00273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F726216C1952388E00273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F726216E1952388E00273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EjemploXIBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EjemploXIBS/EjemploXIBS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F726216F1952388E00273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EjemploXIBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EjemploXIBS/EjemploXIBS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F72621711952388E00273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploXIBS.app/EjemploXIBS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EjemploXIBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F72621721952388E00273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploXIBS.app/EjemploXIBS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EjemploXIBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		F726219519523B3B00273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoundButtonFW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F726219619523B3B00273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RoundButtonFW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F726219919523B3B00273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoundButtonFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F726219A19523B3B00273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoundButtonFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F72621C219523EE000273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XIBViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F72621C319523EE000273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XIBViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F72621C519523EE000273154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XIBViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72621C619523EE000273154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XIBViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72621451952388D00273154 /* Build configuration list for PBXProject "EjemploXIBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F726216B1952388E00273154 /* Debug */,
+				F726216C1952388E00273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F726216D1952388E00273154 /* Build configuration list for PBXNativeTarget "EjemploXIBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F726216E1952388E00273154 /* Debug */,
+				F726216F1952388E00273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72621701952388E00273154 /* Build configuration list for PBXNativeTarget "EjemploXIBSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72621711952388E00273154 /* Debug */,
+				F72621721952388E00273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F726219419523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F726219519523B3B00273154 /* Debug */,
+				F726219619523B3B00273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F726219819523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F726219919523B3B00273154 /* Debug */,
+				F726219A19523B3B00273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72621C119523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72621C219523EE000273154 /* Debug */,
+				F72621C319523EE000273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72621C419523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72621C519523EE000273154 /* Debug */,
+				F72621C619523EE000273154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72621421952388D00273154 /* Project object */;
+}

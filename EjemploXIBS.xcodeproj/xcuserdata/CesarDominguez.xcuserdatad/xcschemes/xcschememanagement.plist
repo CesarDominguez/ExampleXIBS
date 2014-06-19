@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EjemploXIBS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>RoundButtonFW.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>XIBViews.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F72621491952388D00273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F72621621952388E00273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F726217A19523B3B00273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F726218419523B3B00273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F72621A719523EE000273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F72621B119523EE000273154</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
