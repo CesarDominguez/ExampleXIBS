@@ -13,10 +13,6 @@
 		F726215C1952388E00273154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F726215A1952388E00273154 /* Main.storyboard */; };
 		F726215E1952388E00273154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F726215D1952388E00273154 /* Images.xcassets */; };
 		F726216A1952388E00273154 /* EjemploXIBSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72621691952388E00273154 /* EjemploXIBSTests.m */; };
-		F726218619523B3B00273154 /* RoundButtonFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; };
-		F726218D19523B3B00273154 /* RoundButtonFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726218C19523B3B00273154 /* RoundButtonFWTests.swift */; };
-		F726219019523B3B00273154 /* RoundButtonFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; };
-		F726219119523B3B00273154 /* RoundButtonFW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F726217B19523B3B00273154 /* RoundButtonFW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F72621AD19523EE000273154 /* XIBViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F72621AC19523EE000273154 /* XIBViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F72621B319523EE000273154 /* XIBViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72621A819523EE000273154 /* XIBViews.framework */; };
 		F72621BA19523EE000273154 /* XIBViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72621B919523EE000273154 /* XIBViewsTests.swift */; };
@@ -32,48 +28,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F72621491952388D00273154;
 			remoteInfo = EjemploXIBS;
-		};
-		F726218719523B3B00273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
-		};
-		F726218E19523B3B00273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
-		};
-		F726219219523B3B00273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
-		};
-		F726219B19523B3C00273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
-		};
-		F726219D19523B3C00273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
-		};
-		F72621A019523E6000273154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72621421952388D00273154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F726217A19523B3B00273154;
-			remoteInfo = RoundButtonFW;
 		};
 		F72621B419523EE000273154 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -96,6 +50,13 @@
 			remoteGlobalIDString = F72621A719523EE000273154;
 			remoteInfo = XIBViews;
 		};
+		F7A17ED01953895000AD8073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72621421952388D00273154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72621A719523EE000273154;
+			remoteInfo = XIBViews;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,7 +66,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F726219119523B3B00273154 /* RoundButtonFW.framework in Embed Frameworks */,
 				F72621BE19523EE000273154 /* XIBViews.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -126,10 +86,6 @@
 		F72621631952388E00273154 /* EjemploXIBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploXIBSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72621681952388E00273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F72621691952388E00273154 /* EjemploXIBSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploXIBSTests.m; sourceTree = "<group>"; };
-		F726217B19523B3B00273154 /* RoundButtonFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundButtonFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F726218519523B3B00273154 /* RoundButtonFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundButtonFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F726218B19523B3B00273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F726218C19523B3B00273154 /* RoundButtonFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonFWTests.swift; sourceTree = "<group>"; };
 		F72621A819523EE000273154 /* XIBViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XIBViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72621AB19523EE000273154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F72621AC19523EE000273154 /* XIBViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIBViews.h; sourceTree = "<group>"; };
@@ -144,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F726219019523B3B00273154 /* RoundButtonFW.framework in Frameworks */,
 				F72621BD19523EE000273154 /* XIBViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,21 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F726217719523B3B00273154 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F726218219523B3B00273154 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F726218619523B3B00273154 /* RoundButtonFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +134,6 @@
 			children = (
 				F726214C1952388D00273154 /* EjemploXIBS */,
 				F72621661952388E00273154 /* EjemploXIBSTests */,
-				F726218919523B3B00273154 /* RoundButtonFWTests */,
 				F72621A919523EE000273154 /* XIBViews */,
 				F72621B619523EE000273154 /* XIBViewsTests */,
 				F726214B1952388D00273154 /* Products */,
@@ -206,8 +145,6 @@
 			children = (
 				F726214A1952388D00273154 /* EjemploXIBS.app */,
 				F72621631952388E00273154 /* EjemploXIBSTests.xctest */,
-				F726217B19523B3B00273154 /* RoundButtonFW.framework */,
-				F726218519523B3B00273154 /* RoundButtonFWTests.xctest */,
 				F72621A819523EE000273154 /* XIBViews.framework */,
 				F72621B219523EE000273154 /* XIBViewsTests.xctest */,
 			);
@@ -254,23 +191,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F726218919523B3B00273154 /* RoundButtonFWTests */ = {
-			isa = PBXGroup;
-			children = (
-				F726218C19523B3B00273154 /* RoundButtonFWTests.swift */,
-				F726218A19523B3B00273154 /* Supporting Files */,
-			);
-			path = RoundButtonFWTests;
-			sourceTree = "<group>";
-		};
-		F726218A19523B3B00273154 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F726218B19523B3B00273154 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F72621A919523EE000273154 /* XIBViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,13 +229,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F726217819523B3B00273154 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F72621A519523EE000273154 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,8 +252,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				F726218F19523B3B00273154 /* PBXTargetDependency */,
-				F726219319523B3B00273154 /* PBXTargetDependency */,
 				F72621BC19523EE000273154 /* PBXTargetDependency */,
 				F72621C019523EE000273154 /* PBXTargetDependency */,
 			);
@@ -365,45 +276,6 @@
 			name = EjemploXIBSTests;
 			productName = EjemploXIBSTests;
 			productReference = F72621631952388E00273154 /* EjemploXIBSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F726217A19523B3B00273154 /* RoundButtonFW */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F726219419523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFW" */;
-			buildPhases = (
-				F726217619523B3B00273154 /* Sources */,
-				F726217719523B3B00273154 /* Frameworks */,
-				F726217819523B3B00273154 /* Headers */,
-				F726217919523B3B00273154 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RoundButtonFW;
-			productName = RoundButtonFW;
-			productReference = F726217B19523B3B00273154 /* RoundButtonFW.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F726218419523B3B00273154 /* RoundButtonFWTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F726219819523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFWTests" */;
-			buildPhases = (
-				F726218119523B3B00273154 /* Sources */,
-				F726218219523B3B00273154 /* Frameworks */,
-				F726218319523B3B00273154 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F726218819523B3B00273154 /* PBXTargetDependency */,
-				F726219C19523B3C00273154 /* PBXTargetDependency */,
-				F726219E19523B3C00273154 /* PBXTargetDependency */,
-				F72621A119523E6000273154 /* PBXTargetDependency */,
-			);
-			name = RoundButtonFWTests;
-			productName = RoundButtonFWTests;
-			productReference = F726218519523B3B00273154 /* RoundButtonFWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F72621A719523EE000273154 /* XIBViews */ = {
@@ -436,6 +308,7 @@
 			);
 			dependencies = (
 				F72621B519523EE000273154 /* PBXTargetDependency */,
+				F7A17ED11953895000AD8073 /* PBXTargetDependency */,
 			);
 			name = XIBViewsTests;
 			productName = XIBViewsTests;
@@ -457,13 +330,6 @@
 					F72621621952388E00273154 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = F72621491952388D00273154;
-					};
-					F726217A19523B3B00273154 = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					F726218419523B3B00273154 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = F726217A19523B3B00273154;
 					};
 					F72621A719523EE000273154 = {
 						CreatedOnToolsVersion = 6.0;
@@ -489,8 +355,6 @@
 			targets = (
 				F72621491952388D00273154 /* EjemploXIBS */,
 				F72621621952388E00273154 /* EjemploXIBSTests */,
-				F726217A19523B3B00273154 /* RoundButtonFW */,
-				F726218419523B3B00273154 /* RoundButtonFWTests */,
 				F72621A719523EE000273154 /* XIBViews */,
 				F72621B119523EE000273154 /* XIBViewsTests */,
 			);
@@ -508,20 +372,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F72621611952388E00273154 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F726217919523B3B00273154 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F726218319523B3B00273154 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -563,21 +413,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F726217619523B3B00273154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F726218119523B3B00273154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F726218D19523B3B00273154 /* RoundButtonFWTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F72621A319523EE000273154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -602,36 +437,6 @@
 			target = F72621491952388D00273154 /* EjemploXIBS */;
 			targetProxy = F72621641952388E00273154 /* PBXContainerItemProxy */;
 		};
-		F726218819523B3B00273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F726218719523B3B00273154 /* PBXContainerItemProxy */;
-		};
-		F726218F19523B3B00273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F726218E19523B3B00273154 /* PBXContainerItemProxy */;
-		};
-		F726219319523B3B00273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F726219219523B3B00273154 /* PBXContainerItemProxy */;
-		};
-		F726219C19523B3C00273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F726219B19523B3C00273154 /* PBXContainerItemProxy */;
-		};
-		F726219E19523B3C00273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F726219D19523B3C00273154 /* PBXContainerItemProxy */;
-		};
-		F72621A119523E6000273154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F726217A19523B3B00273154 /* RoundButtonFW */;
-			targetProxy = F72621A019523E6000273154 /* PBXContainerItemProxy */;
-		};
 		F72621B519523EE000273154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F72621A719523EE000273154 /* XIBViews */;
@@ -646,6 +451,11 @@
 			isa = PBXTargetDependency;
 			target = F72621A719523EE000273154 /* XIBViews */;
 			targetProxy = F72621BF19523EE000273154 /* PBXContainerItemProxy */;
+		};
+		F7A17ED11953895000AD8073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72621A719523EE000273154 /* XIBViews */;
+			targetProxy = F7A17ED01953895000AD8073 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -802,82 +612,6 @@
 			};
 			name = Release;
 		};
-		F726219519523B3B00273154 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RoundButtonFW/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F726219619523B3B00273154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RoundButtonFW/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F726219919523B3B00273154 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RoundButtonFWTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		F726219A19523B3B00273154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RoundButtonFWTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F72621C219523EE000273154 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -975,6 +709,7 @@
 				F726216F1952388E00273154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F72621701952388E00273154 /* Build configuration list for PBXNativeTarget "EjemploXIBSTests" */ = {
 			isa = XCConfigurationList;
@@ -983,22 +718,7 @@
 				F72621721952388E00273154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F726219419523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFW" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F726219519523B3B00273154 /* Debug */,
-				F726219619523B3B00273154 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F726219819523B3B00273154 /* Build configuration list for PBXNativeTarget "RoundButtonFWTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F726219919523B3B00273154 /* Debug */,
-				F726219A19523B3B00273154 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F72621C119523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViews" */ = {
 			isa = XCConfigurationList;
@@ -1007,6 +727,7 @@
 				F72621C319523EE000273154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F72621C419523EE000273154 /* Build configuration list for PBXNativeTarget "XIBViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -1015,6 +736,7 @@
 				F72621C619523EE000273154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
