@@ -27,10 +27,9 @@
                                         <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="167" y="363" width="107" height="21"/>
                                         </variation>
-                                        <variation key="widthClass=compact">
+                                        <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="87" y="363" width="107" height="21"/>
                                         </variation>
-                                        <variation key="widthClass=compact" ambiguous="YES" misplaced="YES"/>
                                         <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="247" y="363" width="107" height="21"/>
                                         </variation>
