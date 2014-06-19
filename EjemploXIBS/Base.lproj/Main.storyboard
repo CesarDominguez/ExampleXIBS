@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p74-Vl-ANh" customClass="SomeView" customModule="XIBViews">
-                                <rect key="frame" x="86" y="20" width="374" height="292"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="81" y="20" width="379" height="122"/>
+                                <color key="backgroundColor" red="0.57254904510000004" green="0.1294117719" blue="0.40392157439999998" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.57254904510000004" green="0.1294117719" blue="0.40392157439999998" alpha="1" colorSpace="calibratedRGB"/>
